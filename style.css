@@ -21,33 +21,33 @@ body {
     margin: 5px 0 0 0;
   }
   
-  nav {
+  menu {
     margin: 0;
     width: 800px;
   }
   
-  nav ul {
+  menu ul {
     text-align: center;
     font-family: Arial, Verdana;
     font-size: 18px;
     list-style: none;
   }
   
-  nav ul li {
+  menu ul li {
     display: block;
     height: 20px;
     width: 95px;
-    margin: 40px 50px 40px 50px;
+    margin: 40px 50px 40px 15px;
     white-space: nowrap;
   }
   
-  nav ul li a {
+  menu ul li a {
     text-decoration: none;
     padding: 5px 20px;
     background: #125B50;
     color: #FAF5E4;
     text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
-    border: solid 4px #FAF5E4;
+    border: double 4px #FAF5E4;
   }
   
   article {
@@ -56,7 +56,7 @@ body {
     background-color: #F8B400;
     border: double 10px #FAF5E4;
     text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
-    height: 550px;
+    height: 700px;
     width: 600px;
   }
   
@@ -96,20 +96,21 @@ body {
     font-style: italic;
     line-height: 22px;
   }
-
+  
   img {
     margin: 10px 100px;
     width: 350px;
     height: 220px;
   }
   
+  
   aside {
     position: relative;
-    top: -535px;
+    top: -685px;
     left: 640px;
     background-color: #F8B400;
     border: solid 8px #FAF5E4;
-    height: 555px;
+    height: 700px;
     width: 302px;
     text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
   }
@@ -139,4 +140,35 @@ body {
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
     color: #FAF5E4;
   }
+  
+  
+  nav {
+    margin: 0 auto;
+    width: 800px;
+  }
+  
+  nav ul {
+    text-align: center;
+    font-family: Arial, Verdana;
+    font-size: 20px;
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    height: 20px;
+    width: 95px;
+    margin: 0 55px 0 5px;
+    white-space: nowrap;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    padding: 5px 20px;
+    background: #125B50;
+    color: #FF6363;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+    border: double 4px #FF6363;
+  }
+  
   
