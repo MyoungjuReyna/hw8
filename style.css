@@ -171,4 +171,12 @@ body {
     border: double 4px #FF6363;
   }
   
-  
+ 
+    
+  nav ul li a:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    }
+    
